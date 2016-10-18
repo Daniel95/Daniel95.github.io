@@ -1,0 +1,146 @@
+@import ulr(http://fonts.googleapis.com/css?family=Amaranth:700);
+
+body {
+    /*background-color:#415C99;*/
+    background-color:#5476B2;
+    /*background-image: url(images/bg.jpg);
+    background-size:cover;*/
+    margin: 0;
+    font-family: 'Amaranth', sans-serif;
+}
+.wrapper {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+}
+h1 {
+    padding-left: .6em;
+    color: #CC3114;
+}
+p {
+
+    padding-left: 1em;
+    font-size: 18;
+}
+h4{
+    padding-left: .6em;
+    color: #CC3114;
+    font-size: 20;
+}
+a{
+    text-decoration: none;
+    color: #362F78;
+}
+
+footer {
+    box-shadow: 0 3px 1em #adadad;
+    background-color: #333;
+    color: #fff;
+}
+footer p {
+    font-size: .8em;
+    padding: 1em 1em .5em 1.2em;
+}
+
+
+.content {
+    padding-top: 160px;
+}
+
+.textContent {
+    
+    text-align: center;
+    padding: 0px 16px;
+    font-size: 10;
+}
+
+.title {
+    text-align: left;
+    margin-top: 40;
+}
+
+.landingPageText {
+    text-align: left;
+    max-width: 40%;
+}
+
+/*menu */
+ul {
+    list-style-type: none;
+    margin: 79 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 1.5em;
+    box-shadow: 0 3px 1em #adadad;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #CC3114;
+}
+
+
+.top {
+    position: fixed;
+    width: 100%;
+    max-width: 1100px;
+    z-index: 10;
+}
+
+.logo {
+    background-image: url(images/banner/voodooscene.png);
+    /*background-color: #333;*/
+    position: fixed;
+    width: 100%;
+    max-width: 1100px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Banner */
+#Banner {
+    width: 200%;
+    position: relative;
+    margin: 0; padding: 0; overflow: hidden;
+}
+
+#Banner > * {
+    box-sizing: border-box;
+    padding: 0 1em;
+    width: 50%; height: 350px;
+    
+    color: #ffffff;
+    text-shadow: 0 0 1em black, -1px 0 #3f474a, 0 1px #3f474a, 1px 0 #3f474a, 0 -1px #3f474a;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1em;
+    font-size: 25px;
+   
+    background-position: center;
+    background-size: cover;
+   
+    float: left;
+    
+    cursor: pointer;
+}
+/* End Banner */

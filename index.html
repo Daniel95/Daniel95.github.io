@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="script.js"></script>
+    <title>Daniel Brand</title>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+          
+        <div class="top">
+            <div class="logo">
+                <a href="#home" style="text-decoration:none"><h1>Daniel Brand</h1></a> 
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        
+
+        
+        <div class="content"></div>
+        
+        <script>        
+            $(".content").load("pages/home.html");
+        </script>  
+        <footer>
+            <p>&copy; Dani&euml;l Brand</p>
+        </footer>
+    </div>
+</body>
+
+</html>
