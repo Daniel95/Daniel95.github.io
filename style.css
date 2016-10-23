@@ -38,6 +38,12 @@ footer {
     box-shadow: 0 3px 1em #adadad;
     background-color: #333;
     color: #fff;
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height:35px;
+    margin: 0 auto;
+    top: -12px;
 }
 footer p {
     font-size: .8em;
@@ -47,6 +53,7 @@ footer p {
 
 .content {
     padding-top: 160px;
+    margin-bottom: 10;
 }
 
 .textContent {
@@ -63,6 +70,7 @@ footer p {
 
 .landingPageText {
     text-align: left;
+
     max-width: 40%;
 }
 
