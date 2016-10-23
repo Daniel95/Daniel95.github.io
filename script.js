@@ -55,15 +55,21 @@ $(document).ready(function () {
     $("#Banner").mouseenter(function() {clearInterval(diaShow)});
     $("#Banner").mouseleave(function() {diaShow = window.setInterval(nextDia, slideSpeed)});
     
-    
+    /*
     $("a").click(function() {
         if (this.href.search("#") >= 0)
             loadPage( this.href.substr(this.href.search("#")+1) );
-    });
+    });*/
     
     //click function for banner
     $('body').on('click','section',function(e){
         loadPage(dia[dia[0]].page);
+    })
+    
+    //click function for banner
+    $('body').on('click','a',function(e){
+        if (this.href.search("#") >= 0)
+            loadPage( this.href.substr(this.href.search("#")+1) );
     })
         
     var loadPage = function(page) {

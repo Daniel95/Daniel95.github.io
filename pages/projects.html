@@ -1,16 +1,3 @@
-<script>
-        $("a").click(function() {
-       console.log("yo");
-        if (this.href.search("#") >= 0)
-            loadPage( this.href.substr(this.href.search("#")+1) );
-    });
-    
-    
-    var loadPage = function(page) {
-        $(".content").load("pages/" + page + ".html");
-    }
-</script>
-
 <style>
     #projectBox{
         background-color: lightsteelblue;
