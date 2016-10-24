@@ -1,10 +1,7 @@
 @import ulr(http://fonts.googleapis.com/css?family=Amaranth:700);
 
 body {
-    /*background-color:#415C99;*/
     background-color:#5476B2;
-    /*background-image: url(images/bg.jpg);
-    background-size:cover;*/
     margin: 0;
     font-family: 'Amaranth', sans-serif;
 }
@@ -35,7 +32,7 @@ a{
 }
 
 footer {
-    box-shadow: 0 3px 1em #adadad;
+    box-shadow: 0 3px 1em lightsteelblue;
     background-color: #333;
     color: #fff;
     position: relative;
@@ -61,6 +58,7 @@ footer p {
     text-align: center;
     padding: 0px 16px;
     font-size: 10;
+    margin-bottom: 30;
 }
 
 .title {
@@ -82,7 +80,7 @@ ul {
     overflow: hidden;
     background-color: #333;
     font-size: 1.5em;
-    box-shadow: 0 3px 1em #adadad;
+    box-shadow: 0 3px 1em lightsteelblue;
 }
 
 li {
@@ -115,7 +113,6 @@ li a:hover:not(.active) {
 
 .logo {
     background-image: url(images/banner/voodooscene.png);
-    /*background-color: #333;*/
     position: fixed;
     width: 100%;
     max-width: 1100px;
@@ -124,6 +121,10 @@ li a:hover:not(.active) {
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+#projectHeaderPicture{ 
+    width: 100%;
 }
 
 /* Banner */
