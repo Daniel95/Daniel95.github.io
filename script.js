@@ -27,7 +27,7 @@ var dia = [ 1,
 ]
 
 $(document).ready(function () {
-    var slideSpeed = 4200;
+    var slideSpeed = 5000;
     
     //Functions
     var nextDia = function() {
