@@ -43,7 +43,7 @@ footer {
     position: relative;
     width: 100%;
     max-width: 1100px;
-    height:35px;
+    height: 35px;
     margin: 0 auto;
     top: -12px;
 }
@@ -54,7 +54,7 @@ footer p {
 
 
 .content {
-    padding-top: 136;
+    margin: 134 0;
     margin-bottom: 10;
 }
 
@@ -80,7 +80,7 @@ footer p {
 /*menu */
 ul {
     list-style-type: none;
-    margin: 79 0;
+    margin: 78 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -136,7 +136,9 @@ img {
 #Banner {
     width: 200%;
     position: relative;
-    margin: 0; padding: 0; overflow: hidden;
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
 }
 
 #Banner > * {
