@@ -1,25 +1,25 @@
 //values
 var dia = [ 1,
     {
-        img: "slider/voodoo.png",
+        img: "banner/voodoo.png",
         hText: "Voodoo",
         pText: "3D VR Horror Game",
         page: "voodoo",
     },
     {
-        img: "slider/waterrun.jpg",
+        img: "banner/waterrun.jpg",
         hText: "",
         pText: "",
         page: "waterrun",
     },
     {
-        img: "slider/treehousedefense.png",
+        img: "banner/treehousedefense.png",
         hText: "2D Towerdefense Game",
         pText: "Aim",
         page: "treehousedefense",
     },
     {
-        img: "slider/meanracers.png",
+        img: "banner/meanracers.png",
         hText: "Meanracers",
         pText: "2D Online Javascript Game",
         page: "meanracers",
