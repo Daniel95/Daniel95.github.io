@@ -6,10 +6,7 @@ body {
     font-family: 'Amaranth', sans-serif;
 }
 .wrapper {
-    width: 100%;
-    /*background-color: white;*/
-        /*background-color: #EBF8FF;*/
-    
+    width: 100%;  
     background-color: #F7FFF9;
     margin: 0 auto;
     max-width: 1100px;
