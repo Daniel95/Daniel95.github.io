@@ -16,6 +16,18 @@ h1 {
     padding-left: .6em;
     color: #CC3114;
 }
+h2 {
+    text-align: center;
+    font-size:  22;
+    color: #CC3114;
+}
+h3 {
+    text-align: left;
+    padding-left: .6em;
+    font-size: 17;
+    color: #CC3114;
+}
+
 p {
 
     padding-left: 1em;
@@ -32,9 +44,6 @@ a{
 }
 
 footer {
-    /*
-    box-shadow: 0 3px 1em lightsteelblue;
-    */
     background-color: #333;
     color: #fff;
     position: relative;
@@ -126,7 +135,7 @@ img {
 
 .horImage img{
     margin: 20 auto;
-    width: 80%;
+    width: 70%;
 }
 
 .verImage img{
