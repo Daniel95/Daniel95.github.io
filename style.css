@@ -159,7 +159,7 @@ img {
 #Banner > * {
     box-sizing: border-box;
     padding: 0 1em;
-    width: 50%; height: 350px;
+    width: 50%; height: 315px;
     
     color: #ffffff;
     text-shadow: 0 0 1em black, -1px 0 #3f474a, 0 1px #3f474a, 1px 0 #3f474a, 0 -1px #3f474a;
