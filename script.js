@@ -78,7 +78,7 @@ function loadStartValuesSlider() {
 }
 
 
-
+/*
 var $win = $(window);
 var $lay = $('#layout');
 var baseSize = {
@@ -99,9 +99,12 @@ function updateScale() {
         newScale = wh / baseSize.h;        
     }
 
-    $lay.css('transform', 'scale(' + newScale + ',' +  newScale + ')');
+    $lay.css('transform', 'scale(100,100)');
+    
+    //$lay.css('transform', 'scale(' + newScale + ',' +  newScale + ')');
 
     console.log(newScale);
 }
 
 $(window).resize(updateScale);
+*/
